@@ -17,18 +17,23 @@ $(window).scroll(() => {
 })
 
 $(document).on("change", "select.playlist", () => {
-    const playlistId = $(this).val();
-    const songId = $(this).prev(".songId").val();
+    const select = $(this);
 
-    $.post("includes/handlers/ajax/addToPlaylist.php", {playlistId: playlistId, songId: songId}).done((error) => {
+    const playlistId = select.val();
+    const songId = select.prev(".songId").val();
+
+    console.log("playlistId: " + playlistId);
+    console.log("songId: " + songId);
+
+    $.post("includes/handlers/ajax/addToPlaylist.php", {playlistId, songId}).done(error => {
 
         if (error) {
             alert(error);
             return;
         }
 
-        // hideOptionsMenu();
-        // select.val("");
+        hideOptionsMenu();
+        select.val("");
     })
 })
 
@@ -42,7 +47,7 @@ function openPage(url) {
         url = url + "?";
     }
 
-    const encodedUrl = url + "&userLoggedIn=" + userLoggedIn;
+    const encodedUrl = (url + "&userLoggedIn=" + userLoggedIn).trim();
     $("#mainContent").load(encodedUrl);
 
     //Scroll to the top when reloading the page
@@ -135,6 +140,31 @@ function playFirstSong() {
     setTrack(tempPlaylist[0], tempPlaylist, true);
 }
 
+function logout() {
+    $.post("includes/handlers/ajax/logout.php", () => {
+        location.reload();
+    })
+}
+
+function updateEmail(emailClass) {
+    const emailValue = $("." + emailClass).val();
+
+    $.post("includes/handlers/ajax/updateEmail.php", { email: emailValue, username: userLoggedIn }).done(response => {
+        $("." + emailClass).nextAll(".message").text(response);
+    })
+}
+
+function updatePassword(oldPasswordClass, newPasswordClass1, newPasswordClass2) {
+    const oldPassword = $("." + oldPasswordClass).val();
+    const newPassword1 = $("." + newPasswordClass1).val();
+    const newPassword2 = $("." + newPasswordClass2).val();
+
+    $.post("includes/handlers/ajax/updatePassword.php",
+        { oldPassword, newPassword1, newPassword2, username: userLoggedIn }).done(response => {
+        $("." + oldPasswordClass).nextAll(".message").text(response);
+    })
+}
+
 function Audio() {
 
     this.currentlyPlaying = null;
@@ -151,8 +181,7 @@ function Audio() {
     }
 
     this.play = () => {
-        this.audio.play().then(r => {
-        });
+        this.audio.play().then(r => {});
     }
 
     this.pause = () => {

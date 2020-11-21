@@ -234,6 +234,7 @@ body {
 
 #mainContent {
     padding: 0 20px;
+    margin-bottom: 200px;
 }
 
 .pageHeadingBig {
@@ -473,16 +474,16 @@ input:focus {
 }
 
 .playlistImage {
-    border: 3px solid #282828;
     padding: 10px;
 }
 
 .optionsMenu {
     position: fixed;
-    background-color: #282828;
+    background-color: #F2F3F7;
     width: 400px;
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    border-radius: 3px;
+    /*border: 1px solid rgba(0, 0, 0, 0.15);*/
+    box-shadow: 0 0 2px rgba(114, 138, 183, 0.7), 3px 1px 4px rgba(174, 174, 192, 0.25);
+    border-radius: 4px;
     z-index: 1000;
     display: none;
 }
@@ -492,21 +493,56 @@ input:focus {
     padding: 12px 20px;
     box-sizing: border-box;
     font-weight: 400;
-    color: rgba(147, 147, 147, 0.8);
+    color: #474747;
     cursor: pointer;
     height: 40px;
-    background-color: #282828;
+    background-color: #F2F3F7;
     font-size: 14px;
+    transition: all 0.2s ease-out;
 }
 
 .optionsMenu .item:hover {
-    background-color: #333;
-    color: #fff;
-    border-color: #333;
+    background-color: #E8E8EB;
 }
 
 .optionsMenu select {
     border: none;
     -webkit-appearance: none;
     -moz-appearance: none;
+}
+
+.userInfo h1 {
+    text-align: center;
+}
+
+.userDetails {
+    padding: 20px;
+}
+
+.userDetails .container h2 {
+    text-align: center;
+}
+
+.userDetails .container input[type="text"],
+.userDetails .container input[type="password"],
+.userDetails .container .button {
+    display: block;
+    margin: 30px auto;
+}
+
+.userDetails .container input {
+    height: 50px;
+    width: 100%;
+    background-color: #F2F3F7;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0 20px;
+    box-shadow: inset 4px 4px 8px rgba(190, 205, 226, 0.5), inset -5px -5px 30px #FFFFFF;
+}
+
+.userDetails .container .message {
+    color: #07e349;
+    font-weight: 700;
 }

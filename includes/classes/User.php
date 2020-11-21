@@ -16,4 +16,16 @@ class User
         return $this->username;
     }
 
+    public function getEmail() {
+        $query = mysqli_query($this->connection, "SELECT email FROM users WHERE username='$this->username'");
+        $row = mysqli_fetch_array($query);
+        return $row['email'];
+    }
+
+    public function getFullName() {
+        $query = mysqli_query($this->connection, "SELECT CONCAT(firstName, ' ', lastName) AS fullName FROM users WHERE username='$this->username'");
+        $row = mysqli_fetch_array($query);
+        return $row['fullName'];
+    }
+
 }

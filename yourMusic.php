@@ -31,7 +31,7 @@ include("includes/includedFiles.php");
             onclick='openPage(\"playlist.php?id=" . $playlist->getId() . "\")'>
 
                     <div class='playlistImage'>
-                        <img src='assets/images/icons/#' alt='playlist image'>
+                        <img src='assets/images/icons/music.svg' alt='playlist image'>
                     </div>
 
                     <div class='gridViewInfo'>

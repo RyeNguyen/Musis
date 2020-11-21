@@ -32,7 +32,7 @@
             </div>
 
             <div class="navItem">
-                <span role="link" tabindex="0" onclick="openPage('profile.php')" class="navItemLink">Minh Nguyen</span>
+                <span role="link" tabindex="0" onclick="openPage('setting.php')" class="navItemLink"><?php echo $userLoggedIn->getFullName() ?></span>
             </div>
 
         </div>

@@ -15,7 +15,7 @@ $owner = new User($connection, $playlist->getOwner());
 
     <div class="leftSection">
         <div class="playlistImage">
-            <img src="assets/images/icons/#" alt="Playlist Artwork">
+            <img src="assets/images/icons/music.svg" alt="Playlist Artwork">
         </div>
     </div>
 

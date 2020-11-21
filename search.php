@@ -40,7 +40,7 @@ if (isset($_GET['term'])) {
             timer = setTimeout(() => {
                 const val = $(".searchInput").val();
                 openPage("search.php?term=" + val);
-            }, 2000)
+            }, 1000)
         })
     })
 
