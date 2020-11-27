@@ -404,6 +404,16 @@ body {
     font-family: 'Roboto Slab', serif;
     font-weight: normal;
     font-size: 14px;
+    transition: all 0.2s ease-out;
+}
+
+.button:hover {
+    transform: translateY(-5px);
+}
+
+.button:active {
+    outline: none;
+    transform: translateY(3px);
 }
 
 .trackListContainer h2,

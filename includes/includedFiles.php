@@ -9,6 +9,7 @@ if (isset($_SERVER['HTTP_X_REQUESTED_WITH'])) {
     include("includes/classes/Song.php");
     include("includes/classes/Playlist.php");
 
+    //Create a new user
     if (isset($_GET['userLoggedIn'])) {
         $userLoggedIn = new User($connection, $_GET['userLoggedIn']);
     } else {

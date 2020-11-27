@@ -11,7 +11,7 @@ body {
     background-color: #F2F3F7;
     text-align: center;
     background-image: url("../images/icons/musical_notes 1.svg"), url("../images/icons/musical_notes 2.svg");
-    background-repeat: no-repeat, no-repeat;
+    background-repeat: no-repeat;
     background-position: left top, right bottom;
 }
 
@@ -39,7 +39,7 @@ body {
 }
 
 .formDescription {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 18px;
     margin: 5px 0 55px 0;
 }
@@ -53,6 +53,7 @@ input {
     border: none;
     margin-bottom: 35px;
     padding: 0 30px;
+    font-size: 18px;
 }
 
 input:focus {
@@ -64,7 +65,7 @@ input:focus {
     margin-left: 30px;
     font-family: 'Roboto Slab', serif;
     color: rgba(71, 71, 71, 0.7);
-    font-size: 14px;
+    font-size: 18px;
     line-height: 20px;
 }
 
@@ -79,11 +80,18 @@ button {
     color: white;
     font-family: 'Roboto Slab', serif;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+
+button:hover {
+    transform: translateY(-7px);
 }
 
 button:focus {
     outline: none;
+    transform: translateY(4px);
 }
 
 .hasAccountText {
@@ -91,7 +99,7 @@ button:focus {
     position: absolute;
     bottom: 60px;
     color: #694BFF;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 18px;
     font-weight: normal;
     text-align: center;

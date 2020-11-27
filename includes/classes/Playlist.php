@@ -24,8 +24,7 @@ class Playlist
 
     public static function getPlaylistDropdown($connection, $username)
     {
-        $dropdown = '<label>
-                        <select class="item playlist">
+        $dropdown = '<select class="item playlist">
                             <option value="">Thêm vào danh sách phát</option>';
 
         $query = mysqli_query($connection, "SELECT id, name FROM playlists WHERE owner='$username'");
@@ -36,7 +35,7 @@ class Playlist
             $dropdown = $dropdown . "<option value='$id'>$name</option>";
         }
 
-        return $dropdown . "</select></label>";
+        return $dropdown . "</select>";
     }
 
     public function getId()

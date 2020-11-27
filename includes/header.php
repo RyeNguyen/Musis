@@ -6,14 +6,13 @@ include("includes/classes/Album.php");
 include("includes/classes/Song.php");
 include("includes/classes/Playlist.php");
 
-//session_destroy(): LOGOUT
-
 if (isset($_SESSION['userLoggedIn'])) {
     $userLoggedIn = new User($connection, $_SESSION['userLoggedIn']);
     $username = $userLoggedIn->getUsername();
     echo "<script>
             userLoggedIn = '$username';
             </script>";
+
 } else {
     header("Location: register.php");
 }
@@ -30,8 +29,8 @@ if (isset($_SESSION['userLoggedIn'])) {
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-    <link rel="icon" type="image/svg" href="assets/images/icons/musical_notes.svg">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="icon" type="image/svg" href="assets/images/icons/musical_notes.svg">
     <script src="assets/js/script.js"></script>
 </head>
 

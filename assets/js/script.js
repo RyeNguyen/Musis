@@ -16,7 +16,7 @@ $(window).scroll(() => {
     hideOptionsMenu();
 })
 
-$(document).on("change", "select.playlist", () => {
+$(document).on("change", "select.playlist", function() {
     const select = $(this);
 
     const playlistId = select.val();
@@ -25,7 +25,7 @@ $(document).on("change", "select.playlist", () => {
     console.log("playlistId: " + playlistId);
     console.log("songId: " + songId);
 
-    $.post("includes/handlers/ajax/addToPlaylist.php", {playlistId, songId}).done(error => {
+    $.post("includes/handlers/ajax/addToPlaylist.php", {playlistId, songId}).done(function(error) {
 
         if (error) {
             alert(error);
@@ -37,6 +37,7 @@ $(document).on("change", "select.playlist", () => {
     })
 })
 
+//Open page when users click on links
 function openPage(url) {
 
     if (timer != null) {
@@ -47,7 +48,12 @@ function openPage(url) {
         url = url + "?";
     }
 
-    const encodedUrl = (url + "&userLoggedIn=" + userLoggedIn).trim();
+    let encodedUrl = encodeURI(url + "&userLoggedIn=" + userLoggedIn);
+
+    //Check if there are too much spaces
+    if (encodedUrl.includes("%25")) {
+        encodedUrl = url + "&userLoggedIn=" + userLoggedIn;
+    }
     $("#mainContent").load(encodedUrl);
 
     //Scroll to the top when reloading the page

@@ -3,6 +3,7 @@ include("includes/config.php");
 include("includes/classes/Account.php");
 include("includes/classes/Constants.php");
 
+//A new blank account is created
 $account = new Account($connection);
 
 include("includes/handlers/register-handler.php");
@@ -23,6 +24,7 @@ function getInputValue($name)
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&display=swap"
           rel="stylesheet">
+    <link rel="icon" type="image/svg" href="assets/images/icons/musical_notes.svg">
     <link rel="stylesheet" type="text/css" href="assets/css/register.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -31,7 +33,7 @@ function getInputValue($name)
 <body>
 
 <?php
-
+//Handle showing/hiding register/login page
 if (isset($_POST['registerButton'])) {
     echo '<script>
             $(document).ready(() => {
