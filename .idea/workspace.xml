@@ -2,23 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d086a88-6703-49a2-9d21-4c6469a922dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Music Site.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Music Site.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/classes/Account.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/classes/Account.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/classes/Constants.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/classes/Constants.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/classes/Playlist.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/classes/Playlist.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/handlers/ajax/addToPlaylist.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/handlers/ajax/addToPlaylist.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/includedFiles.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/includedFiles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/profile-pictures/truyen-ngan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/music/Cứ Thế - Hà Anh Tuấn [Những Giấc Mơ Trở Về] (Offical).mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/music/Hà Anh Tuấn  Khúc Hát Chim Trời  Video Lyric.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/music/Hà Anh Tuấn - Em À (Official Lyrics MV).mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/music/See Sing Share Season 2/  [SEE SING SHARE 2 - Tập 3] Người Tình Mùa Đông  Hà Anh Tuấn.mp3" beforePathEscaped="$PROJECT_DIR$/assets/music/See Sing Share Season 2/🎧 🎼 [SEE SING SHARE 2 - Tập 3] Người Tình Mùa Đông  Hà Anh Tuấn.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/See Sing Share Season 2/[SEE SING SHARE 2 - Tập 3] Người Tình Mùa Đông  Hà Anh Tuấn.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/music/See Sing Share Season 2/[SEE SING SHARE 2 - Tập 10] Anh Ấy Cô Ấy  Hà Anh Tuấn.mp3" beforePathEscaped="$PROJECT_DIR$/assets/music/See Sing Share Season 2/🎧🎼[SEE SING SHARE 2 - Tập 10] Anh Ấy Cô Ấy  Hà Anh Tuấn.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/See Sing Share Season 2/[SEE SING SHARE 2 - Tập 10] Anh Ấy Cô Ấy  Hà Anh Tuấn.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/music/See Sing Share Season 2/[SEE SING SHARE 2 - Tập 1] Giấc Mơ Chỉ Là Giấc Mơ  Hà Anh Tuấn.mp3" beforePathEscaped="$PROJECT_DIR$/assets/music/See Sing Share Season 2/🎧🎼[SEE SING SHARE 2 - Tập 1] Giấc Mơ Chỉ Là Giấc Mơ  Hà Anh Tuấn.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/See Sing Share Season 2/[SEE SING SHARE 2 - Tập 1] Giấc Mơ Chỉ Là Giấc Mơ  Hà Anh Tuấn.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/music/See Sing Share Season 2/[SEE SING SHARE 2 - Tập 2] Nơi Ấy Bình Yên  Hà Anh Tuấn.mp3" beforePathEscaped="$PROJECT_DIR$/assets/music/See Sing Share Season 2/🎧🎼[SEE SING SHARE 2 - Tập 2] Nơi Ấy Bình Yên  Hà Anh Tuấn.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/See Sing Share Season 2/[SEE SING SHARE 2 - Tập 2] Nơi Ấy Bình Yên  Hà Anh Tuấn.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/music/See Sing Share Season 2/[SEE SING SHARE 2 - Tập 4] LK Tự Khúc Mùa Đông &amp; Tiếng Gió Xôn Xao  Hà Anh Tuấn.mp3" beforePathEscaped="$PROJECT_DIR$/assets/music/See Sing Share Season 2/🎧🎼[SEE SING SHARE 2 - Tập 4] LK Tự Khúc Mùa Đông &amp; Tiếng Gió Xôn Xao  Hà Anh Tuấn.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/See Sing Share Season 2/[SEE SING SHARE 2 - Tập 4] LK Tự Khúc Mùa Đông &amp; Tiếng Gió Xôn Xao  Hà Anh Tuấn.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/music/See Sing Share Season 2/[SEE SING SHARE 2 - Tập 5] Nếu Như  Hà Anh Tuấn.mp3" beforePathEscaped="$PROJECT_DIR$/assets/music/See Sing Share Season 2/🎧🎼[SEE SING SHARE 2 - Tập 5] Nếu Như  Hà Anh Tuấn.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/See Sing Share Season 2/[SEE SING SHARE 2 - Tập 5] Nếu Như  Hà Anh Tuấn.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/music/See Sing Share Season 2/[SEE SING SHARE 2 - Tập 6] Chưa Bao Giờ  Hà Anh Tuấn.mp3" beforePathEscaped="$PROJECT_DIR$/assets/music/See Sing Share Season 2/🎧🎼[SEE SING SHARE 2 - Tập 6] Chưa Bao Giờ  Hà Anh Tuấn.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/See Sing Share Season 2/[SEE SING SHARE 2 - Tập 6] Chưa Bao Giờ  Hà Anh Tuấn.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/music/See Sing Share Season 2/[SEE SING SHARE 2 - Tập 7] Thành Phố Sương  Hà Anh Tuấn.mp3" beforePathEscaped="$PROJECT_DIR$/assets/music/See Sing Share Season 2/🎧🎼[SEE SING SHARE 2 - Tập 7] Thành Phố Sương  Hà Anh Tuấn.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/See Sing Share Season 2/[SEE SING SHARE 2 - Tập 7] Thành Phố Sương  Hà Anh Tuấn.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/music/See Sing Share Season 2/[SEE SING SHARE 2 - Tập 8] Trái Tim Em Cũng Biết Đau  Hà Anh Tuấn.mp3" beforePathEscaped="$PROJECT_DIR$/assets/music/See Sing Share Season 2/🎧🎼[SEE SING SHARE 2 - Tập 8] Trái Tim Em Cũng Biết Đau  Hà Anh Tuấn.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/See Sing Share Season 2/[SEE SING SHARE 2 - Tập 8] Trái Tim Em Cũng Biết Đau  Hà Anh Tuấn.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/music/See Sing Share Season 2/[SEE SING SHARE 2 - Tập 9] Phố Mùa Đông  Hà Anh Tuấn.mp3" beforePathEscaped="$PROJECT_DIR$/assets/music/See Sing Share Season 2/🎧🎼[SEE SING SHARE 2 - Tập 9] Phố Mùa Đông  Hà Anh Tuấn.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/assets/music/See Sing Share Season 2/[SEE SING SHARE 2 - Tập 9] Phố Mùa Đông  Hà Anh Tuấn.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/music/TaiButAnhYeuEm-HaAnhTuan-5112161.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/music/ThangTuLaLoiNoiDoiCuaEm-HaAnhTuan-4609544.mp3" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +62,8 @@
       <updated>1606272112440</updated>
       <workItem from="1606272126552" duration="4354000" />
       <workItem from="1606352962584" duration="9162000" />
+      <workItem from="1606471287472" duration="8985000" />
+      <workItem from="1607143373858" duration="967000" />
     </task>
     <servers />
   </component>
@@ -77,6 +79,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="643" y="201" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1606273621565" />
+    <state x="361" y="308" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607144056346">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="361" y="308" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1607144056346" />
     <state width="1281" height="264" key="GridCell.Tab.0.bottom" timestamp="1606276651655">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -97,9 +103,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="241" y="145" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1606361674924" />
-    <state width="623" height="498" key="SwitcherDM" timestamp="1606370780924">
+    <state width="623" height="498" key="SwitcherDM" timestamp="1607144259976">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="623" height="498" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1606370780924" />
+    <state width="623" height="498" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1607144259976" />
   </component>
 </project>
